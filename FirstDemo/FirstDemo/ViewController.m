@@ -7,12 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "LeftVC.h"
+#import "RightVC.h"
+
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *leftBtn;
 @property (weak, nonatomic) IBOutlet UIButton *rightBtn;
-
-
 
 @end
 
@@ -24,10 +25,14 @@
 }
 
 - (IBAction)leftBtnClick:(id)sender {
+    LeftVC *leftVc = [[LeftVC alloc] init];
+    [self.navigationController pushViewController:LeftVC animated:YES];
 }
 
 
 - (IBAction)rightBtnClick:(id)sender {
+    RightVC *leftVc = [[RightVC alloc] init];
+    [self.navigationController pushViewController:LeftVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
