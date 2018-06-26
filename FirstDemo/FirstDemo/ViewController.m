@@ -26,13 +26,13 @@
 
 - (IBAction)leftBtnClick:(id)sender {
     LeftVC *leftVc = [[LeftVC alloc] init];
-    [self.navigationController pushViewController:LeftVC animated:YES];
+    [self.navigationController pushViewController:leftVc animated:YES];
 }
 
 
 - (IBAction)rightBtnClick:(id)sender {
-    RightVC *leftVc = [[RightVC alloc] init];
-    [self.navigationController pushViewController:LeftVC animated:YES];
+    RightVC *rightVc = [[RightVC alloc] init];
+    [self.navigationController pushViewController:rightVc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
