@@ -13,6 +13,8 @@
 		F34A70A620E275E600A67F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34A70A520E275E600A67F03 /* Assets.xcassets */; };
 		F34A70A920E275E600A67F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34A70A720E275E600A67F03 /* LaunchScreen.storyboard */; };
 		F34A70AC20E275E600A67F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A70AB20E275E600A67F03 /* main.m */; };
+		F34A70B520E27B8800A67F03 /* LeftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A70B420E27B8800A67F03 /* LeftVC.m */; };
+		F34A70B820E27B9F00A67F03 /* RightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A70B720E27B9F00A67F03 /* RightVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		F34A70A820E275E600A67F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F34A70AA20E275E600A67F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34A70AB20E275E600A67F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F34A70B320E27B8800A67F03 /* LeftVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftVC.h; sourceTree = "<group>"; };
+		F34A70B420E27B8800A67F03 /* LeftVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftVC.m; sourceTree = "<group>"; };
+		F34A70B620E27B9F00A67F03 /* RightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightVC.h; sourceTree = "<group>"; };
+		F34A70B720E27B9F00A67F03 /* RightVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		F34A709B20E275E500A67F03 /* FirstDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F34A70B220E27B7100A67F03 /* vc */,
 				F34A709C20E275E500A67F03 /* AppDelegate.h */,
 				F34A709D20E275E500A67F03 /* AppDelegate.m */,
 				F34A709F20E275E500A67F03 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				F34A70AB20E275E600A67F03 /* main.m */,
 			);
 			path = FirstDemo;
+			sourceTree = "<group>";
+		};
+		F34A70B220E27B7100A67F03 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				F34A70B320E27B8800A67F03 /* LeftVC.h */,
+				F34A70B420E27B8800A67F03 /* LeftVC.m */,
+				F34A70B620E27B9F00A67F03 /* RightVC.h */,
+				F34A70B720E27B9F00A67F03 /* RightVC.m */,
+			);
+			path = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +161,9 @@
 			files = (
 				F34A70A120E275E500A67F03 /* ViewController.m in Sources */,
 				F34A70AC20E275E600A67F03 /* main.m in Sources */,
+				F34A70B820E27B9F00A67F03 /* RightVC.m in Sources */,
 				F34A709E20E275E500A67F03 /* AppDelegate.m in Sources */,
+				F34A70B520E27B8800A67F03 /* LeftVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
